@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 
 
 *{
@@ -7,7 +7,7 @@
 }
 
 body{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lora', sans-serif;
 	margin: 0;
 }
 
@@ -34,14 +34,14 @@ figure{
 	margin: auto;
 }
 .border{
-	max-width: 1200px;
+		max-width: 1200px;
   	margin: auto;
   	text-align: center;
   	border: solid 3px #191919;
   	border-radius: 20px;
   	margin-top: 10px;
   	background: url(../images/fondo-nuevo.jpg) center top no-repeat;
-  	background-size:cover;	
+  	background-size:cover;
 }
 
 .nombre{
@@ -64,7 +64,7 @@ figure{
 
 .mail{
 	text-align: left;
-	margin-left: 10px;	
+	margin-left: 10px;
 	border-top: 1px solid black;
 	width: 50%;
 }
@@ -133,7 +133,7 @@ figure{
 }
 
 .logos-skills{
-	font-size: 70px; 
+	font-size: 70px;
 }
 .logos{
 	width: 25%;
@@ -144,10 +144,10 @@ figure{
 	margin-left: 2%;
 }
 .form-contact input{
-	box-shadow: 
+	box-shadow:
 }
 .contact-form-left, .contact-form-right{
-	float: 	left;	
+	float: 	left;
 	width: 	50%;
 }
 .contact-form-left input{
@@ -161,6 +161,7 @@ figure{
 	margin-bottom: 10px;
 	margin-right: 3.33%;
 	box-shadow: 0px 1px 5px inset;
+	background-color: #b9c2bb;
 }
 
 .contact-form-right textarea{
@@ -174,6 +175,7 @@ figure{
 	margin-bottom: 10px;
 	margin-left: 3.33%;
 	box-shadow: 0px 1px 5px inset;
+	background-color: #b9c2bb;
 
 }
 .button-form{
@@ -197,3 +199,96 @@ figure{
 	border-radius: 4px;
 	min-width: 70px;
 }
+
+
+@media (max-width:800px) {
+	.container, .main-header{
+		width: 95%;
+	}
+	.nombre h1{
+		font-size: 20px;
+	}
+	.nombre h3{
+		font-size: 13px;
+		margin-top: -25px;
+		margin-left: 0px;
+	}
+	.mail h3{
+		margin-left: 0;
+		font-size: 12px;
+	}
+	.iconos{
+		margin-left: 10px;
+		text-align: left;
+		font-size: 30px;
+		margin-top: -5px;
+	}
+	@media (max-width:600px) {
+		.container, .main-header{
+			width: 95%
+		}
+		.profile{
+			margin-top: 35px;
+		}
+		.title-section{
+			margin-top: 40px;
+			margin-left: 10px;
+		}
+		.logos-skills{
+			font-size: 70px;
+		}
+		.logos{
+			width: 50%;
+			float: left;
+		}
+		.jobs ul li{
+			margin-right: 10px;
+		}
+		.contact-form-left, .contact-form-right{
+			width: 100%;
+		}
+		.contact-form-right textarea{
+			margin-left: 0;
+		}
+		@media (max-width:400px) {
+			.container, .main-header{
+				width: 95%
+			}
+			.logos-skills{
+				font-size: 50px;
+			}
+			.logos{
+				margin-top: 10px;
+			}
+			.profile{
+				display: none;
+			}
+			.title-section{
+				font-size: 20px;
+				text-align: center;
+				margin-top: 30px;
+			}
+			.profile-left{
+				width: 90%;
+				margin-left: 20%
+			}
+			.nombre h1, h3{
+				width: 90%
+			}
+			.profile-right{
+				width: 90%;
+				margin-left: 5%;
+			}
+			.profile-picture{
+				text-align: center;
+			}
+			.jobs ul li{
+				margin-right: 10px;
+			}
+			.contact-form-left, .contact-form-right{
+				width: 100%;
+			}
+			.contact-form-right textarea{
+				margin-left: 0;
+			}
+		}
